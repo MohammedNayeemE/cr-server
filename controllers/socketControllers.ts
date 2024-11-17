@@ -5,7 +5,7 @@ import { Socket } from "socket.io";
 import axios from "axios";
 //const isAdmin = async (socket : Socket)
 
-const flask_toxicity_url = 'https://37b4-14-98-244-193.ngrok-free.app/check';
+const flask_toxicity_url = 'https://67d2-60-243-98-226.ngrok-free.app/check';
 
 const join_room = async (socket : Socket, data : datamap  ) => {
   const { user_id, room_id } = data;
